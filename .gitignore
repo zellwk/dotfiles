@@ -55,3 +55,9 @@ sftp-config.json
 # For this repo
 .extra
 .ssh
+
+# No env variables
+*.env
+
+# No logs
+*.log
