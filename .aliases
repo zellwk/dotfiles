@@ -152,4 +152,9 @@ alias path='echo -e ${PATH//:/\\n}'
 ##################
 alias t=trash
 alias ncu="npm-check -u"
+
+# Aliases for np
 alias publish="np --yolo"
+alias patch="np patch"
+alias minor="np minor"
+alias major="np major"
