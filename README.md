@@ -17,11 +17,7 @@ Here's my dotfiles repo.
 
 ## Notes
 
-1. I copied many things from [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles), some of which I don't fully understand myself. For example:
-	1. I use ZSH. Would Bash completions work with ZSH?
-	2. How do use Mathias `.inputrc` files with ZSH?
-	3. I don't understand (and haven't used) most of the aliases in `.aliases` and `.functions`.
-	4. I'll get to these questions in time. No promises when though!
+1. I copied many things from [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles).
 2. Put things you don't want to commit into the `.extra` file. Here's what my `.extra` looks like:
 	```
 	# npm init defaults
