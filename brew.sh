@@ -39,10 +39,11 @@ brew install gnu-sed --with-default-names
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
+brew install gmp
 brew install grep
 brew install openssh
+brew install node
 brew install php
-brew install gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -81,12 +82,10 @@ brew install ack
 brew install autojump
 brew install git
 brew install gpg
-brew cask install gpg-suite
 brew install git-lfs
 brew install imagemagick --with-webp
 brew install lua
 brew install lynx
-brew install node
 brew install p7zip
 brew install pigz
 brew install pv
@@ -98,7 +97,6 @@ brew install tree
 brew install vbindiff
 brew install youtube-dl
 brew install zopfli
-brew install zsh zsh-completions
 
 # Installs Casks
 brew tap caskroom/cask
@@ -110,10 +108,10 @@ brew cask install beamer
 brew cask install dash
 brew cask install dropbox
 brew cask install firefox # Firefox
-brew cask install google-chrome #Chrome
-brew cask install grammarly
 brew cask install homebrew/cask-versions/firefox-nightly # Nightly
+brew cask install google-chrome #Chrome
 brew cask install homebrew/cask-versions/google-chrome-canary # Chrome Canary
+brew cask install grammarly
 brew cask install iterm2
 brew cask install kap
 brew cask install marked
@@ -136,6 +134,9 @@ brew cask install tower
 brew cask install visual-studio-code
 brew cask install wechat
 brew cask install whatsapp
+
+# Some binaries
+brew cask install gpg-suite # Useful for automatic GPG Signing
 
 # Remove outdated versions from the cellar.
 brew cleanup
