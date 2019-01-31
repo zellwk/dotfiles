@@ -61,3 +61,6 @@ sftp-config.json
 
 # No logs
 *.log
+
+# No Ulysses plist files
+*.plist
