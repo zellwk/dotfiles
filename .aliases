@@ -152,6 +152,7 @@ alias path='echo -e ${PATH//:/\\n}'
 ##################
 alias t=trash
 alias ncu="npm-check -u"
+alias nd="node-docs"
 
 # Aliases for np
 alias publish="np --yolo"
