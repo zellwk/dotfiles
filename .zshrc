@@ -15,7 +15,7 @@ ZSH_THEME="theunraveler"
 # Plugins
 # plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(git git-extras npm node osx autojump)
+plugins=(node autojump)
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend $PATH.
