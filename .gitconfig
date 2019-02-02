@@ -1,10 +1,12 @@
 [alias]
 
+
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
 
 	# View the current working tree status using the short format
 	s = status -s
+	st = status
 
 	# Show the diff between the latest commit and the current state
 	d = !"git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat"
@@ -23,6 +25,12 @@
 
 	# Switch to a branch, creating it if necessary
 	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
+
+	# Remote add origin
+	rao = remote add origin
+
+	# Remote remove origin
+	rro = remote remove origin
 
 	# Show verbose output about tags, branches or remotes
 	tags = tag -l
