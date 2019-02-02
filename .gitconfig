@@ -23,6 +23,8 @@
 	# Commit all changes
 	ca = !git add -A && git commit -av
 
+	cm = commit -m
+
 	# Switch to a branch, creating it if necessary
 	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
 
@@ -63,6 +65,10 @@
 
 	# Find commits by commit message
 	fm = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --grep=$1; }; f"
+
+	p = pull
+	pu = push
+	pus = push --set-upstream
 
 	# Remove branches that have already been merged with master
 	# a.k.a. ‘delete merged’
