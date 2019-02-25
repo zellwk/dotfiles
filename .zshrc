@@ -25,7 +25,6 @@ for file in ~/.{path,exports,aliases,functions,extra}; do
 done;
 unset file;
 
-# Not sure why this breaks....
 source $ZSH/oh-my-zsh.sh
 
 # To allow bash complete command
@@ -46,3 +45,7 @@ fi;
 
 # Add tab completion for SSH hostnames based on ~/.ssh/config, ignoring wildcards
 [ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2- | tr ' ' '\n')" scp sftp ssh;
+
+# Undo Oh My ZSH Aliases
+unalias rd
+unalias md

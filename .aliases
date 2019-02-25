@@ -130,10 +130,6 @@ for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
 	alias "${method}"="lwp-request -m '${method}'"
 done
 
-# Stuff I never really use but cannot delete either because of http://xkcd.com/530/
-alias stfu="osascript -e 'set volume output muted true'"
-alias pumpitup="osascript -e 'set volume output volume 100'"
-
 # Kill all the tabs in Chrome to free up memory
 # [C] explained: http://www.commandlinefu.com/commands/view/402/exclude-grep-from-your-grepped-output-of-ps-alias-included-in-description
 alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v extension-process | tr -s ' ' | cut -d ' ' -f2 | xargs kill"
@@ -150,12 +146,29 @@ alias path='echo -e ${PATH//:/\\n}'
 ##################
 # CUSTOM ALIASES
 ##################
-alias t=trash
-alias ncu="npm-check -u"
+
+# Source .zshrc, which updates all commands
+alias s="source ~/.zshrc"
+
+# npm run aliases
+alias run="npm run"
+alias rd="npm run dev"
+alias rs="npm run server"
+alias rt="npm run test"
+alias rw="npm run watch"
+
+# Open node docs (See zsh node plugin)
 alias nd="node-docs"
 
+# Aliases for globally installed npm modules
+alias t=trash
+alias ncu="npm-check -u"
+
 # Aliases for np
-alias publish="np --yolo"
+alias pub="np"
 alias patch="np patch"
 alias minor="np minor"
 alias major="np major"
+
+# Remove directory
+alias rmd=t
