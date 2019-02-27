@@ -150,7 +150,10 @@
 
 	# https://help.github.com/articles/signing-commits-using-gpg/
 	# https://gist.github.com/scisco/e6aad7393f19147266f9385f320ae27a
-	gpgsign = true
+	gpgsign = false
+
+# [gpg]
+# 	program = /usr/local/bin/gpg
 
 [diff]
 
@@ -204,5 +207,3 @@
 	name = Zell Liew
 	email = zellwk@gmail.com
 	signingkey = 9C832E1D6C2DE54683E0603EA86649620C0F0AEA
-[gpg]
-	program = /usr/local/bin/gpg
