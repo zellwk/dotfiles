@@ -17,6 +17,12 @@ ZSH_THEME="theunraveler"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 plugins=(node autojump)
 
+source $ZSH/oh-my-zsh.sh
+
+# Undo Oh My ZSH Aliases
+unalias rd
+unalias md
+
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend $PATH.
 # * ~/.extra can be used for other settings you don’t want to commit.
@@ -24,8 +30,6 @@ for file in ~/.{path,exports,aliases,functions,extra}; do
  [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;
-
-source $ZSH/oh-my-zsh.sh
 
 # To allow bash complete command
 autoload bashcompinit
@@ -45,7 +49,3 @@ fi;
 
 # Add tab completion for SSH hostnames based on ~/.ssh/config, ignoring wildcards
 [ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2- | tr ' ' '\n')" scp sftp ssh;
-
-# Undo Oh My ZSH Aliases
-unalias rd
-unalias md
