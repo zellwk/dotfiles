@@ -41,7 +41,6 @@ brew install wget --with-iri
 
 brew install gmp
 brew install grep
-brew install openssh
 brew install node
 brew install php
 
