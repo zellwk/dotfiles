@@ -15,6 +15,7 @@ function clone () {
   # Products
 	git clone git@github.com:zellwk/learnjavascript.today.git
   git clone git@github.com:zellwk/learn-js-starter-pack.git
+  git clone git@github.com:zellwk/Learnjavascript-api.git
 	git clone git@github.com:zellwk/jsf.git
 
   git clone git@github.com:zellwk/ayw.git ayw-website
