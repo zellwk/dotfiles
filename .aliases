@@ -155,7 +155,7 @@ alias run="npm run"
 alias rd="npm run dev"
 alias rs="npm run server"
 alias rt="npm run test"
-alias rw="npm run watch"
+alias rw="npm run test:watch"
 
 # Open node docs (See zsh node plugin)
 alias nd="node-docs"
