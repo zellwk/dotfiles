@@ -170,5 +170,5 @@ alias patch="np patch"
 alias minor="np minor"
 alias major="np major"
 
-# Remove directory
-alias rmd=t
+alias gt='npx gulp --tasks'
+alias m='mongod'
