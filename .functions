@@ -176,3 +176,12 @@ function savebatt() {
   fkill Dropbox
   fkill odrive
 }
+
+# Find port in use
+function fpiu () {
+  lsof -i tcp:$@
+}
+
+function killpid () {
+  kill -9 $@
+}
