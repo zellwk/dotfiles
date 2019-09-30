@@ -8,6 +8,7 @@ function clone () {
 	git clone git@github.com:zellwk/mappy-breakpoints.git
 	git clone git@github.com:zellwk/typi.git
 	git clone git@github.com:zellwk/zl-fetch.git
+  git clone git@github.com:zellwk/css-reset.git
 
   # Blog
 	git clone git@github.com:zellwk/zellwk.com.git
