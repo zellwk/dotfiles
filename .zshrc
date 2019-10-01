@@ -20,8 +20,8 @@ plugins=(node autojump)
 source $ZSH/oh-my-zsh.sh
 
 # Undo Oh My ZSH Aliases
-unalias rd
-unalias md
+# unalias rd
+# unalias md
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend $PATH.
@@ -32,8 +32,8 @@ done;
 unset file;
 
 # To allow bash complete command
-autoload bashcompinit
-bashcompinit
+# autoload bashcompinit
+# bashcompinit
 
 # Add tab completion for many Bash commands
 if which brew &> /dev/null && [ -f "$(brew --prefix)/share/bash-completion/bash_completion" ]; then
