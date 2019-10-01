@@ -163,7 +163,7 @@ alias nd="node-docs"
 # Aliases for globally installed npm modules
 alias t=trash
 alias ncu="npm-check -u"
-alias svgop="svgo --pretty --disable=mergePaths,convertShapeToPath --enable=removeXMLNS --multipass"
+alias svgop="svgo --pretty --disable=mergePaths,convertShapeToPath --multipass"
 alias svgor="svgop --recursive"
 
 # Aliases for np
