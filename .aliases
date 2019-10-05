@@ -174,3 +174,6 @@ alias major="np major"
 
 alias gt='npx gulp --tasks'
 alias m='mongod'
+
+# Check opened TCP Ports
+alias openedports="sudo netstat -plunt"
