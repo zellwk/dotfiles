@@ -52,6 +52,7 @@ brew install node
 # Install useful binaries.
 brew install ack
 brew install autojump
+brew install ffmpeg
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
