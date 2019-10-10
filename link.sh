@@ -1,7 +1,7 @@
 function doIt() {
 	# Make a symlink for all dotfiles in this directory
 	for file in \.[^.]*; do
-		if [ $file != '.DS_Store' ]; then
+		if [ $file != '.DS_Store' ] && [ $file != '.git' ]; then
 			echo "Creating symlink to $file in home directory."
 			ln -sf $PWD/$file ~/$file
 		fi
