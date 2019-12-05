@@ -177,3 +177,7 @@ alias m='mongod'
 
 # Check opened TCP Ports
 alias openedports="sudo netstat -plunt"
+
+# For installing and using 3rd-party apps
+alias allow3p="sudo spctl --master-disable"
+alias disallow3p="sudo spctl --master-enable"
