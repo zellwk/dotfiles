@@ -3,6 +3,9 @@
 # 1. Open Powershell as Administrator
 # 2. Run command found on https://chocolatey.org/install
 
+# Binaries
+choco install autohotkey -y
+
 # Browsers
 choco install firefox-nightly --pre -y
 choco install googlechrome.canary -y
