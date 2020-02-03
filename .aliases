@@ -1,4 +1,5 @@
 #!/bin/bash
+# For a full list of active aliases, run `alias`.
 
 # Detect Machine
 unameOut="$(uname -s)"
@@ -15,6 +16,6 @@ echo "This is a" ${machine} "machine"
 source ./.aliases-shared
 if [[ "$machine" == "Linux" ]]
   then source ./.aliases-linux
-elif [[ "$machine" == "Linux" ]]
+elif [[ "$machine" == "Mac" ]]
   then source ./.aliases-mac
 fi

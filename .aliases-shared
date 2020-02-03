@@ -1,5 +1,4 @@
 #!/bin/bash
-# For a full list of active aliases, run `alias`.
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."

@@ -170,13 +170,6 @@ function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
 
-# Kills applications that take up a lot of power to preserve battery
-function savebatt() {
-  fkill Creative Cloud
-  fkill Dropbox
-  fkill odrive
-}
-
 # Find port in use
 function fpiu () {
   lsof -i tcp:$@

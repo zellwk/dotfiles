@@ -1,3 +1,4 @@
+
 [alias]
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
@@ -199,9 +200,4 @@
 	pushInsteadOf = "git://gist.github.com/"
 
 [url "git://gist.github.com/"]
-
-	insteadOf = "gist:"
-[user]
-	name = Zell Liew
-	email = zellwk@gmail.com
-	signingkey = 9C832E1D6C2DE54683E0603EA86649620C0F0AEA
+  insteadOf = "gist:"

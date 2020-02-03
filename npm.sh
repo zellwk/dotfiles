@@ -1,9 +1,6 @@
 # Set permissions
 sudo chown -R $USER:$(id -gn $USER) $HOME/.config
 
-# Logs in into npm
-npm adduser --scope=@zellwk
-
 # Install commonly used clis
 sudo npm i -g fkill-cli
 sudo npm i -g http-server
