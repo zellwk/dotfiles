@@ -5,6 +5,7 @@
 
 # Binaries
 choco install autohotkey -y
+choco install cmdermini -y
 
 # Browsers
 choco install firefox-nightly --pre -y
