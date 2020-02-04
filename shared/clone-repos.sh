@@ -8,6 +8,8 @@ function clone () {
 	# CD to folder where git repos are kept
 	cd $HOME/$projects
 
+  echo "Cloning repositories"
+
   # Open source projects
 	git clone git@github.com:zellwk/mappy-breakpoints.git
 	git clone git@github.com:zellwk/typi.git

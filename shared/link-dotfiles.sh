@@ -19,3 +19,6 @@
 # 	fi;
 # fi;
 # unset doIt;
+
+echo "Creating symlinks for dotfiles"
+

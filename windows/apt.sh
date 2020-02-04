@@ -1,9 +1,3 @@
-# Update and upgrade apt
-sudo apt update && sudo apt upgrade -y
-
-# Installs ZSH and Oh my ZSH (Should do this earlier perhaps...)
-sudo apt install zsh -y
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # ########
 # Binaries

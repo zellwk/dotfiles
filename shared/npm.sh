@@ -1,7 +1,9 @@
 # Set permissions
+echo "Setting npm permissions"
 sudo chown -R $USER:$(id -gn $USER) $HOME/.config
 
 # Install commonly used clis
+echo "Setting npm clis"
 sudo npm i -g fkill-cli
 sudo npm i -g http-server
 sudo npm i -g npm-check
