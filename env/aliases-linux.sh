@@ -13,9 +13,6 @@ alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias copy="tr -d '\n' | pbcopy"
 
-# Starts MongoDB like Mac
-alias mongod='sudo systemctl start mongod'
-
 # #########
 # Functions 
 # #########
