@@ -14,10 +14,10 @@ source windows/link-startup-scripts.sh
 source windows/apt.sh
 
 # Set npm permissions and install npm binaries
-source windows/shared/npm.sh
+source shared/npm.sh
 
 # Clone repositories
-source windows/shared/clone-repos.sh
+source shared/clone-repos.sh
 
 # Create symlinks for dotfiles 
-source windows/shared/link-dotfiles.sh
+source link-dotfiles.sh

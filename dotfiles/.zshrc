@@ -13,24 +13,24 @@ source $ZSH/oh-my-zsh.sh
 
 unameOut="$(uname -s)"
 case "${unameOut}" in
-    Linux*)     machine=Linux;;
-    Darwin*)    machine=Mac;;
-    CYGWIN*)    machine=Cygwin;;
-    MINGW*)     machine=MinGw;;
-    *)          machine="UNKNOWN:${unameOut}"
+    Linux*)     MACHINE=Linux;;
+    Darwin*)    MACHINE=Mac;;
+    CYGWIN*)    MACHINE=Cygwin;;
+    MINGW*)     MACHINE=MinGw;;
+    *)          MACHINE="UNKNOWN:${unameOut}"
 esac
-export machine
+export MACHINE
 
 # Source aliases
 # For a full list of active aliases, run `alias`.
-if [[ "$machine" == "Linux" ]]
+if [[ "$MACHINE" == "Linux" ]]
   then 
     export cdrive='/mnt/c/Users/zellw'
     source $cdrive/projects/dotfiles/env/aliases-shared.sh
     source $cdrive/projects/dotfiles/env/aliases-linux.sh
     source $cdrive/projects/dotfiles/env/exports.sh
     source $cdrive/projects/dotfiles/env/functions.sh
-elif [[ "$machine" == "Mac" ]]
+elif [[ "$MACHINE" == "Mac" ]]
   then 
     # Unsure if this would work... Must test
     source ../env/aliases-shared.sh
