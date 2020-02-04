@@ -2,6 +2,7 @@
 ; Commonly used
 ; ------
 :*:;em1::zellwk@gmail.com
+:*:;em2::zell@zellwk.com
 :*:;add::Blk 207 Serangoon Central #03-190
 :*:;sg::Singapore
 :*:;web::https://zellwk.com
