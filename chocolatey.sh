@@ -12,11 +12,8 @@ choco install googlechrome.canary -y
 choco install microsoft-edge -y
 
 # Apps
-choco install 7-zip -y
+choco install 7zip -y
 choco install notion -y
 choco install slack -y
 choco install vscode -y
 choco install fontbase -y
-
-
-
