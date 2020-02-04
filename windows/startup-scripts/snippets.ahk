@@ -4,11 +4,13 @@
 :*:;em1::zellwk@gmail.com
 :*:;add::Blk 207 Serangoon Central #03-190
 :*:;sg::Singapore
+:*:;web::https://zellwk.com
+:*:;b;::https://zellwk.com/blog/
 :*:;js;::JavaScript
 :*:;ljs;::Learn JavaScript
 :*:;ljsl::https://learnjavascript.today
 :*:;ljss::https://students.learnjavascript.today
-:*:;vscode::Visual Studio Code
+:*:;vs;::Visual Studio Code
 
 ; ---------------
 ; General Writing
