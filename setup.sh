@@ -11,7 +11,7 @@ esac
 
 if [[ "$machine" == "Linux" ]]
   then 
-    source windows/link-startup-scripts.sh
+    source windows/setup.sh
 elif [[ "$machine" == "Mac" ]]
   then 
     source mac/setup.sh
