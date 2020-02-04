@@ -7,8 +7,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 source ./brew.sh
 
 # Set npm permissions and install global binaries
-source ./npm.sh
+source ../shared/npm.sh
+
+# Clone repositories
+source ../shared/clone-repos.sh
+
+# Create symlinks for dotfiles 
+source ../shared/create-symlinks.sh
 
 # Configure MacOS defaults.
 # You only want to run this once during setup. Additional runs may reset changes you make manually.
 source ./macos
+

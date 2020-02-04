@@ -13,9 +13,9 @@ esac
 echo "This is a" ${machine} "machine"
 
 # Source aliases
-source ./.aliases-shared
+source ./.aliases-shared.sh
 if [[ "$machine" == "Linux" ]]
-  then source ./.aliases-linux
+  then source ./.aliases-linux.sh
 elif [[ "$machine" == "Mac" ]]
-  then source ./.aliases-mac
+  then source ./.aliases-mac.sh
 fi

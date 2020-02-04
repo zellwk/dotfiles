@@ -1,8 +1,12 @@
-# Clone reposities into the projects folder
+# Clone reposities a single folder
+# ################################
+
+# Change this value your custom location
+clonePath = 'projects'
+
 function clone () {
 	# CD to folder where git repos are kept
-	# Change this value to your location
-	cd $HOME/projects
+	cd $HOME/$projects
 
   # Open source projects
 	git clone git@github.com:zellwk/mappy-breakpoints.git
