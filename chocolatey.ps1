@@ -18,3 +18,4 @@ choco install notion -y
 choco install slack -y
 choco install vscode -y
 choco install fontbase -y
+
