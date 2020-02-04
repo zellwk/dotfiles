@@ -1,7 +1,10 @@
-# Before running this, make sure you have Chocolatey installed.
-# To install Chocolatey:
-# 1. Open Powershell as Administrator
-# 2. Run command found on https://chocolatey.org/install
+# Uses Chocolatey to install stuff 
+# ################################
+# Usage steps: 
+# 1. Make sure you have Chocolatey installed. 
+# 2. Open Powershell as Admin 
+# 3. Set Execution Policy on Powershell by running `Set-ExecutionPolicy RemoteSigned`. 
+# 4. Run this file `C:\PATH_TO_FILE\chocolatey.ps1` 
 
 # Binaries
 choco install autohotkey -y
