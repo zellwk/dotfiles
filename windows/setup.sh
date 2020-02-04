@@ -8,7 +8,7 @@ sudo apt install zsh -y
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Creates hardlinks for startup scripts
-source windows/link-startup-scripts.sh
+source link-startup-scripts.sh
 
 # Install binaries via apt
 source windows/apt.sh
