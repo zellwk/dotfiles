@@ -77,9 +77,6 @@ alias path='echo -e ${PATH//:/\\n}'
 ##################
 # CUSTOM ALIASES
 ##################
-# Shorthand for git
-alias g='git '
-
 # Source .zshrc, which updates all other commands
 alias s="source ~/.zshrc"
 
