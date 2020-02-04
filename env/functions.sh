@@ -5,11 +5,6 @@ function mkd() {
 	mkdir -p "$@" && cd "$_";
 }
 
-# Change working directory to the top-most Finder window location
-function cdf() { # short for `cdfinder`
-	cd "$(osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)')";
-}
-
 # Create a .tar.gz archive, using `zopfli`, `pigz` or `gzip` for compression
 function targz() {
 	local tmpFile="${@%/}.tar";
@@ -102,11 +97,6 @@ function gz() {
 	printf "gzip: %d bytes (%2.2f%%)\n" "$gzipsize" "$ratio";
 }
 
-# Run `dig` and display the most useful info
-function digga() {
-	dig +nocmd "$1" any +multiline +noall +answer;
-}
-
 # Show all the names (CNs and SANs) listed in the SSL certificate
 # for a given domain
 function getcertnames() {
@@ -170,15 +160,20 @@ function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
 
-# Find port in use
-function fpiu () {
+# ################################
+# Crappy functions written by Zell
+# ################################
+# Find port in use (used to kill pid)
+function findpid () {
   lsof -i tcp:$@
 }
 
+# USed to kill pid
 function killpid () {
   kill -9 $@
 }
 
+# Downloads a .mp3 file
 function dlmp3 () {
   youtube-dl --extract-audio --audio-format mp3 $1
 }

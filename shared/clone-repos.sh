@@ -1,3 +1,5 @@
+#!/bin/bash 
+
 # Clone reposities a single folder
 # ################################
 

@@ -1,5 +1,4 @@
 #!/bin/bash
-echo "Adding Mac aliases"
 
 # For faster navigation
 alias ~="cd ~" # `cd` is probably faster to type though
@@ -77,6 +76,22 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias gatekeeperOff="sudo spctl --master-disable"
 alias gatekeeperOn="sudo spctl --master-enable"
 
+# #########
+# Functions 
+# #########
+# Change working directory to the top-most Finder window location
+function cdf() { # short for `cdfinder`
+	cd "$(osascript -e 'tell app "Finder" to POSIX path of (insertion location as alias)')";
+}
+
+# Run `dig` and display the most useful info
+function digga() {
+	dig +nocmd "$1" any +multiline +noall +answer;
+}
+
+# ################################
+# Crappy functions written by Zell
+# ################################
 # Kills applications that take up a lot of power to preserve battery
 function savebatt() {
   fkill Creative Cloud

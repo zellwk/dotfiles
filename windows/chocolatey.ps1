@@ -17,7 +17,8 @@ choco install microsoft-edge -y
 
 # Apps
 choco install 7zip -y
+choco install dropbox -y
+choco install fontbase -y
 choco install notion -y
 choco install slack -y
 choco install vscode -y
-choco install fontbase -y

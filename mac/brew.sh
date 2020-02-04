@@ -79,14 +79,12 @@ brew cask install moom
 brew cask install mplayerx
 brew cask install notion
 brew cask install obs
-brew cask install odrive
 brew cask install postman
 brew cask install sketch
 brew cask install skitch
 brew cask install skype
 brew cask install slack
 brew cask install spotify
-brew cask install telegram
 brew cask install textexpander
 brew cask install tower
 brew cask install visual-studio-code
