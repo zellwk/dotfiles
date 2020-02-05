@@ -64,22 +64,15 @@ brew cask install alfred
 brew cask install beamer
 brew cask install dash
 brew cask install dropbox
-brew cask install firefox # Firefox
 brew cask install homebrew/cask-versions/firefox-nightly # Nightly
 brew cask install google-chrome #Chrome
 brew cask install homebrew/cask-versions/google-chrome-canary # Chrome Canary
 brew cask install grammarly
 brew cask install iterm2
-brew cask install kap
 brew cask install keycastr
-brew cask install marked
-brew cask install messenger
 brew cask install mongodb-compass
 brew cask install moom
-brew cask install mplayerx
 brew cask install notion
-brew cask install obs
-brew cask install postman
 brew cask install sketch
 brew cask install skitch
 brew cask install skype
