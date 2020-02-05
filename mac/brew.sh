@@ -79,7 +79,6 @@ brew cask install slack
 brew cask install spotify
 brew cask install textexpander
 brew cask install tower
-brew cask install visual-studio-code
 brew cask install wechat
 brew cask install whatsapp
 
