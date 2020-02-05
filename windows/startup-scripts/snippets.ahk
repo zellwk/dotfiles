@@ -13,13 +13,6 @@
 :*:;ljss::https://students.learnjavascript.today
 :*:;vs;::Visual Studio Code
 
-; ---------------
-; General Writing
-; ---------------
-:*:;tm::™
-::;idk:: ¯\_(ツ)_/¯
-:*:;idku:: ~<div class="kaomoji">¯\_(ツ)_/¯</div>~
-
 ; -----------------
 ; Dates for writing
 ; -----------------

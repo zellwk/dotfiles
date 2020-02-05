@@ -8,7 +8,7 @@ LAlt::LControl
 LWin::LAlt
 LControl::LWin                    
 
-; Make right modifiers behave like MacOS too
+; Mirror shortcuts for changing text insertion points on Mac
 RAlt:: Control
 AppsKey::Control 
 
@@ -27,3 +27,5 @@ If GetKeyState("Shift")
 else 
   Send, {End}
 Return
+
+
