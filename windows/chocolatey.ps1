@@ -11,7 +11,7 @@ choco install autohotkey -y
 choco install cmdermini -y
 
 # Browsers
-choco install firefox-nightly --pre -y
+# Note: Need to install Firefox Nightly manually 
 choco install googlechrome.canary -y
 choco install microsoft-edge -y
 
