@@ -70,7 +70,6 @@ brew cask install grammarly
 brew cask install iterm2
 brew cask install keycastr
 brew cask install mongodb-compass
-brew cask install moom
 brew cask install notion
 brew cask install sketch
 brew cask install skitch
@@ -80,7 +79,6 @@ brew cask install spotify
 brew cask install textexpander
 brew cask install tower
 brew cask install wechat
-brew cask install whatsapp
 
 # Remove outdated versions from the cellar.
 brew cleanup

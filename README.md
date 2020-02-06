@@ -1,4 +1,7 @@
-# Zell's dotfiles
+# Device installation scripts for Mac and Windows (WSL)
+
+- [Mac instructions]()
+- [Windows (WSL) instructions]() 
 
 Here's my dotfiles repo.
 

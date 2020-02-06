@@ -28,4 +28,8 @@ else
   Send, {End}
 Return
 
-
+; Replaces F11 and F12 with Pgup and Pgdown 
+; They're more useful than full-screening stuff. 
+F11::Pgup 
+F12::PgDn
+F10::F11 ; Replaces full screen (F11)
