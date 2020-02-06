@@ -1,14 +1,14 @@
-#!/bin/bash 
+#!/bin/bash
 
 # Clone reposities a single folder
 # ################################
 
 # Change this value your custom location
-clonePath = 'projects'
+CLONE_PATH = 'projects'
 
 function clone () {
 	# CD to folder where git repos are kept
-	cd $HOME/$projects
+	cd $HOME/$CLONE_PATH
 
   echo "Cloning repositories"
 
