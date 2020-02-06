@@ -29,21 +29,16 @@ export MACHINE
 
 # Source aliases
 # For a full list of active aliases, run `alias`.
-if [[ "$MACHINE" == "Linux" ]]
-  then
-    export cdrive='/mnt/c/Users/zellw'
-    source $cdrive/projects/dotfiles/env/aliases-shared.sh
-    source $cdrive/projects/dotfiles/env/aliases-linux.sh
-    source $cdrive/projects/dotfiles/env/exports.sh
-    source $cdrive/projects/dotfiles/env/functions.sh
-elif [[ "$MACHINE" == "Mac" ]]
-  then
-    # Unsure if this would work... Must test
-    source ../env/aliases-shared.sh
-    source ../env/aliases-mac.sh
-    source ../env/exports.sh
-    source ../env/functions.sh
+if [[ "$MACHINE" == "Linux" ]];then
+  PROJECT_ROOT='/mnt/c/Users/zellw/dotfiles'
+  source "$PROJECT_ROOT/env/aliases-shared.sh"
+  source "$PROJECT_ROOT/env/aliases-linux.sh"
+  source "$PROJECT_ROOT/env/exports.sh"
+  source "$PROJECT_ROOT/env/functions.sh"
+elif [[ "$MACHINE" == "Mac" ]]; then
+  PROJECT_ROOT='/Users/zellwk/projects/dotfiles'
+  source "$PROJECT_ROOT/env/aliases-shared.sh"
+  source "$PROJECT_ROOT/env/aliases-mac.sh"
+  source "$PROJECT_ROOT/env/exports.sh"
+  source "$PROJECT_ROOT/env/functions.sh"
 fi
-
-# Add tab completion for SSH hostnames based on ~/.ssh/config, ignoring wildcards
-[ -e "$HOME/.ssh/config" ] && complete -o "default" -o "nospace" -W "$(grep "^Host" ~/.ssh/config | grep -v "[?*]" | cut -d " " -f2- | tr ' ' '\n')" scp sftp ssh;
