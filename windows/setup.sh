@@ -3,7 +3,6 @@
 # Update and upgrade apt
 sudo apt update && sudo apt upgrade -y
 
-
 # Install binaries via apt
 source windows/apt.sh
 
