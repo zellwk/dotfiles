@@ -29,7 +29,7 @@ export MACHINE
 # Source aliases
 # For a full list of active aliases, run `alias`.
 if [[ "$MACHINE" == "Linux" ]];then
-  PROJECT_ROOT='/mnt/c/Users/zellw/dotfiles'
+  PROJECT_ROOT='/mnt/c/Users/zellw/projects/dotfiles'
   source "$PROJECT_ROOT/env/aliases-shared.sh"
   source "$PROJECT_ROOT/env/aliases-linux.sh"
   source "$PROJECT_ROOT/env/exports.sh"
