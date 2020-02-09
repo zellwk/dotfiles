@@ -10,7 +10,6 @@ ZSH_THEME="avit"
 plugins=(
   git
   autojump
-  git-flow-completion
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
