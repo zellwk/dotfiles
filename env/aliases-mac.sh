@@ -8,7 +8,7 @@ alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
-alias g="git"
+alias z="cd ~/projects/zellwk.com"
 
 # Google Chrome
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
@@ -77,7 +77,7 @@ alias gatekeeperOff="sudo spctl --master-disable"
 alias gatekeeperOn="sudo spctl --master-enable"
 
 # #########
-# Functions 
+# Functions
 # #########
 # Change working directory to the top-most Finder window location
 function cdf() { # short for `cdfinder`
@@ -94,7 +94,9 @@ function digga() {
 # ################################
 # Kills applications that take up a lot of power to preserve battery
 function savebatt() {
-  fkill Creative Cloud
+  fkill Backup and Sync
   fkill Dropbox
-  fkill odrive
+  fkill Google Drive File Stream
+  fkill iStat Menus Status
+  fkill iStatMenusAgent
 }

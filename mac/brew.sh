@@ -68,6 +68,7 @@ brew cask install google-chrome #Chrome
 brew cask install homebrew/cask-versions/google-chrome-canary # Chrome Canary
 brew cask install grammarly
 brew cask install iterm2
+brew cask install kap
 brew cask install keycastr
 brew cask install mongodb-compass
 brew cask install notion
