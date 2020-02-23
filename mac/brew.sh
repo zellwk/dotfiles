@@ -15,8 +15,8 @@ BREW_PREFIX=$(brew --prefix)
 # Install and setup Mongodb
 brew tap mongodb/brew
 brew install mongodb-community
-sudo mkdir -p /data/db
-sudo chown -R `id -un` /data/db
+sudo mkdir -p /System/Volumes/Data/data/db
+sudo chown -R `id -un` /System/Volumes/Data/data/db
 
 # Install GNU core utilities (those that come with macOS are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
@@ -43,6 +43,7 @@ brew install autojump
 brew install ffmpeg
 brew install git
 brew install git-lfs
+brew install github/gh/gh
 brew install imagemagick --with-webp
 brew install p7zip
 brew install pigz

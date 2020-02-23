@@ -105,7 +105,7 @@ alias minor="np minor"
 alias major="np major"
 
 # Gulp aliases
-alias gt='npx gulp --tasks'
+alias gulp='npx gulp'
 
 # Check opened TCP Ports
 alias openedports="sudo netstat -plunt"
