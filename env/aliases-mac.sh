@@ -97,8 +97,7 @@ function savebatt() {
   fkill Backup and Sync
   fkill Dropbox
   fkill Google Drive File Stream
-  fkill iStat Menus Status
-  fkill iStatMenusAgent
+  fkill Creative Cloud
 }
 
 # Aliases for MongoDB
