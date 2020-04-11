@@ -35,5 +35,11 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 source ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh 
 source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 
+# Add plugins to zshrc
+sed -i $(grep -n 'source $ZSH/oh-my-zsh.sh' ~/.zshrc | cut -d: -f1)'i\plugins=(\nzsh-autosuggestions\nzsh-syntax-highlighting\n)' ~/.zshrc
+
+#Source zshrc
+source ~/.zshrc
+
 # Fix permissions
 chmod 700 ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
