@@ -177,3 +177,7 @@ function killpid () {
 function dlmp3 () {
   youtube-dl --extract-audio --audio-format mp3 $1
 }
+
+function dlmp4 () {
+  youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best' $1
+}
