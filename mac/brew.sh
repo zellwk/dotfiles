@@ -2,6 +2,7 @@
 
 # Install Homebrew (if not installed)
 echo "Installing Homebrew."
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -56,31 +57,26 @@ brew install vbindiff
 brew install youtube-dl
 
 # Installs Casks
-brew tap caskroom/cask
+brew tap homebrew/cask
 
 ## Apps I use
-brew cask install 1password
-brew cask install alfred
-brew cask install beamer
-brew cask install dash
-brew cask install dropbox
-brew cask install homebrew/cask-versions/firefox-nightly # Nightly
-brew cask install google-chrome #Chrome
-brew cask install homebrew/cask-versions/google-chrome-canary # Chrome Canary
-brew cask install grammarly
-brew cask install iterm2
-brew cask install kap
-brew cask install keycastr
-brew cask install mongodb-compass
-brew cask install notion
-brew cask install sketch
-brew cask install skitch
-brew cask install skype
-brew cask install slack
-brew cask install spotify
-brew cask install textexpander
-brew cask install tower
-brew cask install wechat
+brew install alfred
+brew install dropbox
+brew install homebrew/cask-versions/firefox-nightly # Nightly
+brew install google-chrome #Chrome
+brew install homebrew/cask-versions/google-chrome-canary # Chrome Canary
+brew install grammarly
+brew install iterm2
+brew install kap
+brew install keycastr
+brew install mongodb-compass
+brew install notion
+brew install sketch
+brew install slack
+brew install spotify
+brew install textexpander
+brew install tower
+brew install wechat
 
 # Remove outdated versions from the cellar.
 brew cleanup
