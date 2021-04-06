@@ -1,5 +1,4 @@
 #!/bin/bash
-
 unameOut="$(uname -s)"
 case "${unameOut}" in
     Linux*)     MACHINE=Linux;;

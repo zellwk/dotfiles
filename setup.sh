@@ -1,5 +1,4 @@
-#!/bin/bash 
-
+#!/bin/bash
 unameOut="$(uname -s)"
 case "${unameOut}" in
     Linux*)     MACHINE=Linux;;
@@ -10,9 +9,9 @@ case "${unameOut}" in
 esac
 
 if [[ "$MACHINE" == "Linux" ]]
-  then 
+  then
     source windows/setup.sh
 elif [[ "$MACHINE" == "Mac" ]]
-  then 
+  then
     source mac/setup.sh
 fi
