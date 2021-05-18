@@ -1,6 +1,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+# Disables Insecure completion error. No harm because https://github.com/ohmyzsh/ohmyzsh/issues/6835#issuecomment-390589452
+ZSH_DISABLE_COMPFIX=true
+
 # Set name of the theme to load.
 ZSH_THEME="avit"
 
@@ -13,6 +16,8 @@ plugins=(
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
+
+
 
 source $ZSH/oh-my-zsh.sh
 
