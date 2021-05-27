@@ -9,6 +9,10 @@ function clone () {
 
   echo "Cloning repositories"
 
+  # Dotfiles
+  git clone git@github.com:zellwk/dotfiles.git
+  git clone git@github.com:zellwk/dotfiles-secrets.git
+
   # Open source projects
 	git clone git@github.com:zellwk/mappy-breakpoints.git
 	git clone git@github.com:zellwk/typi.git
