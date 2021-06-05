@@ -16,6 +16,7 @@ brew tap homebrew/cask
 
 ## Apps I use
 brew install alfred
+brew install mackup
 brew install dropbox
 brew install google-backup-and-sync
 brew install google-chrome #Chrome
@@ -33,6 +34,11 @@ brew install spotify
 brew install textexpander
 brew install tower
 brew install visual-studio-code
+brew install whatsapp
+brew install zoom
+
+# Restore plists of apps
+mackup restore
 
 # Remove outdated versions from the cellar.
 brew cleanup

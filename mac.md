@@ -9,3 +9,4 @@ Initial installation
 5. Run `./setup.sh`
 6. Run `./mac/brew-binaries.sh`
 7. Run `./shared/clone-repos.sh`
+8. Run `./shared/npm.sh`
