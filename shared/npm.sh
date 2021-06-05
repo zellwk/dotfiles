@@ -11,3 +11,4 @@ sudo npm i -g npm-check
 sudo npm i -g standard
 sudo npm i -g svgo
 sudo npm i -g trash-cli
+sudo npm i -g nodemon
