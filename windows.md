@@ -1,27 +1,27 @@
-# WIndows installation instructions 
+# Windows installation instructions
 
 ## Enable Windows Subsystem for Linux (WSL)
 
-Follow instructions from [this blog post]() to enable WSL. 
+Follow instructions from [this blog post]() to enable WSL.
 
-Note: This repository is configured for Ubuntu 18.04. If you install a different version, you might need to download a different version for MongoDB in [`apt.sh`](windows/apt.sh). 
+Note: This repository is configured for Ubuntu 18.04. If you install a different version, you might need to download a different version for MongoDB in [`apt.sh`](windows/apt.sh).
 
-## Run `setup.sh` 
+## Run `setup.sh`
 
-What this does: 
+What this does:
 
-1. Updates apt 
+1. Updates apt
 2. Installs Node and other binaries. (See [`apt.sh`](windows/apt.sh))
-3. Sets npm permissions 
+3. Sets npm permissions
 4. Installs npm clis (see [npm.sh](shared/npm.sh) for a list of installed clis)
 5. Create symlinks for dotfiles
 6. Create hardlinks for Auto Hot Key startup scripts. (See [this blog post]() for details)
 
-Regarding Auto Hot Keys: 
+Regarding Auto Hot Keys:
 
-1. This blog post explains why 
+1. This blog post explains why
 2. Change location of Ctrl, Alt, Win modifiers and other mappings. (See [`change-key-mappings.ahk`](windows/startup-scripts/change-key-mappings.ahk) for the changes).
-3. Creates snippets. These snippets are usually used for writing and other purposes. Not for coding. See [`snippets.ahk`](windows/startup-scripts/change-key-mappings.ahk) for snippets). 
+3. Creates snippets. These snippets are usually used for writing and other purposes. Not for coding. See [`snippets.ahk`](windows/startup-scripts/change-key-mappings.ahk) for snippets).
 
 ## Run ./zsh-install.sh
 

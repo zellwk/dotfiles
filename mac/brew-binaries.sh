@@ -19,6 +19,10 @@ brew install findutils
 # Install GNU `sed` as gsed
 brew install gnu-sed
 
+# For https on locahost
+brew install mkcert
+brew install nss
+
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
@@ -43,3 +47,6 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install youtube-dl
+
+# Remove outdated versions from the cellar.
+brew cleanup

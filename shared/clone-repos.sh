@@ -9,10 +9,6 @@ function clone () {
 
   echo "Cloning repositories"
 
-  # Dotfiles
-  git clone git@github.com:zellwk/dotfiles.git test
-  git clone git@github.com:zellwk/dotfiles-secrets.git
-
   # Open source projects
 	git clone git@github.com:zellwk/mappy-breakpoints.git
 	git clone git@github.com:zellwk/typi.git
@@ -29,6 +25,7 @@ function clone () {
 	git clone git@github.com:zellwk/learnjavascript.today.git
   git clone git@github.com:zellwk/Learnjavascript-api.git
 	git clone git@github.com:zellwk/jsf.git
+  git@github.com:zellwk/jsroadmap.com.git
 
   # AYW
   git clone git@github.com:zellwk/ayw.git ayw-website
@@ -37,6 +34,12 @@ function clone () {
   # MRT
   git clone git@github.com:zellwk/mastering-responsive-typography.com.git
   git clone git@github.com:zellwk/students.mastering-responsive-typography.com.git
+
+  # UAJS
+  git clone git@github.com:zellwk/uajs.git
+
+  # Pet Projects
+  git clone git@github.com:zellwk/javascript.git
 }
 
 clone
