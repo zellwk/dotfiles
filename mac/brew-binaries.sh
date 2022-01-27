@@ -38,6 +38,7 @@ brew install git
 brew install git-lfs
 brew install github/gh/gh
 brew install imagemagick --with-webp
+brew install ngrok
 brew install p7zip
 brew install pigz
 brew install pv
