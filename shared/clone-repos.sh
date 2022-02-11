@@ -14,6 +14,7 @@ function clone () {
 	git clone git@github.com:zellwk/typi.git
 	git clone git@github.com:zellwk/zl-fetch.git
   git clone git@github.com:zellwk/css-reset.git
+  git clone git@github.com:zellwk/javascript.git
 
   # Blog
 	git clone git@github.com:zellwk/zellwk.com.git
@@ -38,8 +39,8 @@ function clone () {
   # UAJS
   git clone git@github.com:zellwk/uajs.git
 
-  # Pet Projects
-  git clone git@github.com:zellwk/javascript.git
+  # Demos
+  git clone git@github.com:zellwk/demos.git
 }
 
 clone
