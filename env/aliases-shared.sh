@@ -89,8 +89,9 @@ alias s="source ~/.zshrc"
 alias run="npm run"
 alias rd="npm run dev"
 alias rs="npm run server"
+alias rw="npm run watch"
 alias rt="npm run test"
-alias rw="npm run test:watch"
+alias rtw="npm run test:watch"
 
 # Aliases for globally installed npm modules
 alias t=trash
