@@ -39,6 +39,9 @@ function clone () {
   # UAJS
   git clone git@github.com:zellwk/uajs.git
 
+  # Essential CSS
+  git clone git@github.com:zellwk/ecss.git
+
   # Demos
   git clone git@github.com:zellwk/demos.git
 }
