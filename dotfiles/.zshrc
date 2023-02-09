@@ -17,8 +17,6 @@ plugins=(
   zsh-syntax-highlighting
 )
 
-
-
 source $ZSH/oh-my-zsh.sh
 
 unameOut="$(uname -s)"
@@ -46,3 +44,6 @@ elif [[ "$MACHINE" == "Mac" ]]; then
   source "$PROJECT_ROOT/env/exports.sh"
   source "$PROJECT_ROOT/env/functions.sh"
 fi
+
+# Fix Homebrew path (required for M1 mac and above)
+export PATH="/opt/homebrew/bin:$PATH"
