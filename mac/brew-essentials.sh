@@ -25,6 +25,7 @@ brew install homebrew/cask-versions/firefox-nightly # Nightly
 brew install homebrew/cask-versions/google-chrome-canary # Chrome Canary
 brew install iterm2
 brew install kap
+brew install --cask keycastr
 brew install mongodb-compass
 brew install notion
 brew install --cask figma

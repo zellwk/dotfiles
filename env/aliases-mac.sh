@@ -89,16 +89,7 @@ function digga() {
 	dig +nocmd "$1" any +multiline +noall +answer;
 }
 
-# ################################
-# Crappy functions written by Zell
-# ################################
-# Kills applications that take up a lot of power to preserve battery
-function savebatt() {
-  fkill Backup and Sync
-  fkill Dropbox
-  fkill Google Drive File Stream
-  fkill Creative Cloud
-}
+alias hs='http-server'
 
 # Aliases for MongoDB
 alias mongod='brew services run mongodb-community'
