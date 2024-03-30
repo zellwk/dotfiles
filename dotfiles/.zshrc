@@ -32,18 +32,26 @@ export MACHINE
 # Source aliases
 # For a full list of active aliases, run `alias`.
 if [[ "$MACHINE" == "Linux" ]];then
-  PROJECT_ROOT='/mnt/c/Users/zellw/projects/dotfiles'
+  PROJECT_ROOT='/mnt/c/Users/zellw/projects/@zellwk/dotfiles'
   source "$PROJECT_ROOT/env/aliases-shared.sh"
   source "$PROJECT_ROOT/env/aliases-linux.sh"
   source "$PROJECT_ROOT/env/exports.sh"
   source "$PROJECT_ROOT/env/functions.sh"
 elif [[ "$MACHINE" == "Mac" ]]; then
-  PROJECT_ROOT='/Users/zellwk/projects/dotfiles'
+  PROJECT_ROOT='/Users/zellwk/projects/@zellwk/dotfiles'
   source "$PROJECT_ROOT/env/aliases-shared.sh"
   source "$PROJECT_ROOT/env/aliases-mac.sh"
   source "$PROJECT_ROOT/env/exports.sh"
   source "$PROJECT_ROOT/env/functions.sh"
 fi
 
-# Fix Homebrew path (required for M1 mac and above)
-export PATH="/opt/homebrew/bin:$PATH"
+# Allows running x86 version of Homebrew on M1 Macs
+if [ "$(arch)" = "arm64" ]; then
+  export PATH="/opt/homebrew/bin:$PATH"
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+else
+  export PATH=/usr/local/bin:${PATH}
+  eval "$(/usr/local/bin/brew shellenv)"
+fi
+
+

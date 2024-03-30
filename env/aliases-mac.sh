@@ -95,3 +95,8 @@ alias hs='http-server'
 alias mongod='brew services run mongodb-community'
 alias mongod-status='brew services list'
 alias mongod-stop='brew services stop mongodb-community'
+
+# Aliases for Steam
+# Uses x86 version of the shell
+alias x86='arch -x86_64 zsh'
+alias steam="WINEESYNC=1 WINEPREFIX=~/my-game-prefix /usr/local/Cellar/game-porting-toolkit/1.0.4/bin/wine64 'C:\Program Files (x86)\Steam\steam.exe'"

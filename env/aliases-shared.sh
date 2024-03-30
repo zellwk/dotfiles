@@ -94,6 +94,7 @@ alias rb="npm run build"
 alias rbw="npm run build:watch"
 alias rt="npm run test"
 alias rtw="npm run test:watch"
+alias rp="npm run preview"
 
 # Aliases for globally installed npm modules
 alias t=trash

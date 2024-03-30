@@ -37,6 +37,7 @@ brew install ffmpeg
 brew install git
 brew install git-lfs
 brew install github/gh/gh
+brew install graphviz
 brew install imagemagick --with-webp
 brew install ngrok
 brew install p7zip
