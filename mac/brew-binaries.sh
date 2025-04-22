@@ -13,11 +13,11 @@ brew install coreutils
 ln -s "${BREW_PREFIX}/bin/gsha256sum" "${BREW_PREFIX}/bin/sha256sum"
 
 # Install some other useful utilities like `sponge`.
-brew install moreutils
+# brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
-brew install findutils
+# brew install findutils
 # Install GNU `sed` as gsed
-brew install gnu-sed
+# brew install gnu-sed
 
 # For https on locahost
 brew install mkcert
@@ -48,7 +48,6 @@ brew install rename
 brew install ssh-copy-id
 brew install tree
 brew install vbindiff
-brew install youtube-dl
 
 # Remove outdated versions from the cellar.
 brew cleanup

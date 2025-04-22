@@ -20,22 +20,23 @@ brew install --cask discord
 brew install dropbox
 brew install --cask grammarly
 brew install google-chrome #Chrome
-brew install google-drive
+brew install google-drive 
 brew install homebrew/cask-versions/firefox-nightly # Nightly
 brew install homebrew/cask-versions/google-chrome-canary # Chrome Canary
 brew install iterm2
 brew install kap
 brew install --cask keycastr
 brew install mongodb-compass
-brew install notion
 brew install --cask figma
-brew install slack
 brew install spotify
+brew install --cask raycast
 brew install textexpander
 brew install tower
 brew install visual-studio-code
 brew install whatsapp
 brew install zoom
+brew install --cask 1password
+brew install --cask 1password-cli
 
 # Remove outdated versions from the cellar.
 brew cleanup
