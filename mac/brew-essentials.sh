@@ -37,6 +37,8 @@ brew install whatsapp
 brew install zoom
 brew install --cask 1password
 brew install --cask 1password-cli
+brew install --cask obsidian
+
 
 # Remove outdated versions from the cellar.
 brew cleanup
