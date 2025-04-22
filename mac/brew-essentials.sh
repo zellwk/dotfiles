@@ -15,30 +15,29 @@ BREW_PREFIX=$(brew --prefix)
 brew tap homebrew/cask
 
 ## Apps I use
+brew install 1password
+brew install 1password-cli
 brew install alfred
-brew install --cask discord
+brew install discord
 brew install dropbox
-brew install --cask grammarly
+brew install figma
 brew install google-chrome #Chrome
 brew install google-drive 
-brew install homebrew/cask-versions/firefox-nightly # Nightly
+brew install homebrew/cask-versions/firefox-nightly # Firefox Nightly
 brew install homebrew/cask-versions/google-chrome-canary # Chrome Canary
 brew install iterm2
 brew install kap
-brew install --cask keycastr
+brew install keycastr
+brew install kkbox
 brew install mongodb-compass
-brew install --cask figma
+brew install obsidian
+brew install raycast
 brew install spotify
-brew install --cask raycast
 brew install textexpander
 brew install tower
 brew install visual-studio-code
 brew install whatsapp
 brew install zoom
-brew install --cask 1password
-brew install --cask 1password-cli
-brew install --cask obsidian
-
 
 # Remove outdated versions from the cellar.
 brew cleanup
