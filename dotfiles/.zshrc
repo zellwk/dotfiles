@@ -54,4 +54,10 @@ else
   eval "$(/usr/local/bin/brew shellenv)"
 fi
 
-
+# pnpm
+export PNPM_HOME="/Users/zellwk/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
