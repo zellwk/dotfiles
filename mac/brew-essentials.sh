@@ -38,6 +38,8 @@ brew install tower
 brew install visual-studio-code
 brew install whatsapp
 brew install zoom
+brew install lunar
+
 
 # Remove outdated versions from the cellar.
 brew cleanup
