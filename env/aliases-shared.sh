@@ -110,4 +110,4 @@ alias major="np major"
 
 # Gulp aliases
 alias gulp='npx gulp'
-
+alias ncud='npx npm-check-updates --deep -i'
