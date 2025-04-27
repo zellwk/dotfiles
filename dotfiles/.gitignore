@@ -68,3 +68,6 @@ sftp-config.json
 # No Obsidian files
 .obsidian
 .trash
+
+.specstory
+.cursorindexingignore
