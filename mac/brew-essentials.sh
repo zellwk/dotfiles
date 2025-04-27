@@ -18,6 +18,8 @@ brew tap homebrew/cask
 brew install 1password
 brew install 1password-cli
 brew install alfred
+brew install brave-browser
+brew install cursor
 brew install discord
 brew install dropbox
 brew install figma
@@ -29,6 +31,7 @@ brew install iterm2
 brew install kap
 brew install keycastr
 brew install kkbox
+brew install lunar
 brew install mongodb-compass
 brew install obsidian
 brew install raycast
@@ -38,8 +41,6 @@ brew install tower
 brew install visual-studio-code
 brew install whatsapp
 brew install zoom
-brew install lunar
-
 
 # Remove outdated versions from the cellar.
 brew cleanup
