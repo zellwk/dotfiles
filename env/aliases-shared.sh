@@ -112,5 +112,6 @@ alias major="np major"
 alias gulp='npx gulp'
 alias ncud='npx npm-check-updates --deep -i'
 
-# Clean Node Modules
+# Clean Node Modules. 
+# Deletes away all node_modules and package-lock.json files. Useful for cleaning up monorepos.
 alias cnm='find . -name "node_modules" -type d -prune -exec rm -rf {} \; -o -name "package-lock.json" -type f -delete'
