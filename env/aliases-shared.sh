@@ -113,4 +113,4 @@ alias gulp='npx gulp'
 alias ncud='npx npm-check-updates --deep -i'
 
 # Clean Node Modules
-alias clean-deps='find . -name "node_modules" -type d -prune -exec rm -rf {} \; -o -name "package-lock.json" -type f -delete'
+alias cnm='find . -name "node_modules" -type d -prune -exec rm -rf {} \; -o -name "package-lock.json" -type f -delete'
