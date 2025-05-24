@@ -28,7 +28,6 @@ brew install wget --with-iri
 
 brew install gmp
 brew install grep
-brew install node
 
 # Install useful binaries.
 brew install ack

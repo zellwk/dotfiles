@@ -8,4 +8,5 @@ Initial installation
 4. Run `./mac/macos`. Restart computer
 5. Run `./mac/brew-essentials.sh`
 6. Run `./mac/brew-binaries.sh`
-7. Run `./shared/npm.sh`
+7. Run `./mac/node.sh` to install Node
+8. Run `./shared/npm.sh`

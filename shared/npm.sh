@@ -14,3 +14,4 @@ npm i -g standard
 npm i -g svgo
 npm i -g trash-cli
 npm i -g pnpm
+npm i -g @changesets/cli
