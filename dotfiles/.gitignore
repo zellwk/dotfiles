@@ -28,31 +28,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-#########################################################
-# SublimeText
-# Created by https://www.gitignore.io/api/sublimetext
-# Edit at https://www.gitignore.io/?templates=sublimetext
-#########################################################
-
-# Cache files for Sublime Text
-*.tmlanguage.cache
-*.tmPreferences.cache
-*.stTheme.cache
-
-# Workspace files are user-specific
-*.sublime-workspace
-
-# Project files should be checked into the repository, unless a significant
-# proportion of contributors will probably not be using Sublime Text
-# *.sublime-project
-
-# SFTP configuration file
-sftp-config.json
-
-# For this repo
-.extra
-.ssh
-
 # No env variables
 *.env
 
@@ -65,6 +40,5 @@ sftp-config.json
 # No Obsidian files
 .obsidian
 .trash
-
 .specstory
 .cursorindexingignore
