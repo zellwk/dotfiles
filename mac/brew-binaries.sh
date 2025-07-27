@@ -48,6 +48,7 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install tursodatabase/tap/turso
+brew install stripe/stripe-cli/stripe
 
 # Remove outdated versions from the cellar.
 brew cleanup
