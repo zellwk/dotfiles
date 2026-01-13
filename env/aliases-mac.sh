@@ -92,9 +92,9 @@ function digga() {
 alias hs='http-server'
 
 # Aliases for MongoDB
-alias mongod='brew services run mongodb-community'
+alias mongod='brew services run mongodb-community@8.0'
 alias mongod-status='brew services list'
-alias mongod-stop='brew services stop mongodb-community'
+alias mongod-stop='brew services stop mongodb-community@8.0'
 
 # Aliases for Steam
 # Uses x86 version of the shell

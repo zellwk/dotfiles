@@ -114,7 +114,7 @@ alias ncud='npx npm-check-updates --deep -i'
 
 # Clean Node Modules. 
 # Deletes away all node_modules and package-lock.json files. Useful for cleaning up monorepos.
-alias cnm='find . -name "node_modules" -type d -prune -exec rm -rf {} \; -o -name "package-lock.json" -type f -delete'
+alias cnm='find . -type d -name "node_modules" -exec rm -rf {} + && find . -type f -name "package-lock.json" -delete'
 
 # Changesets aliases
 alias changesets="npx @changesets/cli $@"

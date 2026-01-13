@@ -38,6 +38,7 @@ brew install git-lfs
 brew install github/gh/gh
 brew install graphviz
 brew install imagemagick --with-webp
+brew install mole
 brew install ngrok
 brew install p7zip
 brew install pigz
