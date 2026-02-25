@@ -45,6 +45,9 @@ elif [[ "$MACHINE" == "Mac" ]]; then
   source "$PROJECT_ROOT/env/functions.sh"
 fi
 
+# Private secrets (dotfiles-secrets repo, not public)
+[ -f "$PROJECT_ROOT/../dotfiles-secrets/secrets.sh" ] && source "$PROJECT_ROOT/../dotfiles-secrets/secrets.sh"
+
 # Allows running x86 version of Homebrew on M1 Macs
 if [ "$(arch)" = "arm64" ]; then
   export PATH="/opt/homebrew/bin:$PATH"
