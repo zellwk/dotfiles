@@ -93,6 +93,12 @@
 	# Show verbose output about tags, branches or remotes
 	tags = tag -l
 
+	# Stage everything and commit as "wip" — useful before switching branches
+	wip = !git add -A && git commit -m "wip"
+
+	# Undo the last wip commit, keeping all changes unstaged
+	unwip = reset HEAD~1
+
 [apply]
 
 	# Detect whitespace errors when applying a patch
