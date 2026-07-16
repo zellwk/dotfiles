@@ -32,6 +32,7 @@ brew install grep
 # Install useful binaries.
 brew install ack
 brew install autojump
+brew install doctl
 brew install ffmpeg
 brew install git
 brew install git-lfs
