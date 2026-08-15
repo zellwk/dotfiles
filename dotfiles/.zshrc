@@ -67,6 +67,7 @@ esac
 
 export N_PREFIX="$HOME/n"; export PATH="$N_PREFIX/bin:$PATH"  # n (node version manager) — prepend so it wins over Homebrew
 export PATH="$HOME/.local/bin:$PATH"
+export BASH_MAX_OUTPUT_LENGTH=15000
 
-# OpenClaw Completion
-source "/Users/zellwk/.openclaw/completions/openclaw.zsh"
+# OpenClaw Completion — only on machines that have it
+[ -f "$HOME/.openclaw/completions/openclaw.zsh" ] && source "$HOME/.openclaw/completions/openclaw.zsh"
