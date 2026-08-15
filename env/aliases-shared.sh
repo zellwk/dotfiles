@@ -118,3 +118,9 @@ alias cnm='find . -type d -name "node_modules" -exec rm -rf {} + && find . -type
 
 # Changesets aliases
 alias changesets="npx @changesets/cli $@"
+
+# Claude with headroom context compression
+hclaude() { headroom wrap claude "$@"; }
+claudeh() { headroom wrap claude "$@"; }
+hcodex() { headroom wrap codex "$@"; }
+codexh() { headroom wrap codex "$@"; }
