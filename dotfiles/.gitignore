@@ -43,6 +43,3 @@ Temporary Items
 .specstory
 .cursorindexingignore
 **/.claude/settings.local.json
-
-# No AI working memory (plans, assets)
-.context/
