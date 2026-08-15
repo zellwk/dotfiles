@@ -43,3 +43,6 @@ Temporary Items
 .specstory
 .cursorindexingignore
 **/.claude/settings.local.json
+
+# Playwright screenshots — wiped at session end
+.context/playwright/
