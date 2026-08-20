@@ -4,6 +4,12 @@ export ZSH="$HOME/.oh-my-zsh"
 # Disables Insecure completion error. No harm because https://github.com/ohmyzsh/ohmyzsh/issues/6835#issuecomment-390589452
 ZSH_DISABLE_COMPFIX=true
 
+# Prompt mode reads a raw keystroke at shell start, which swallows the first
+# character of anything automation types into a new terminal. Auto keeps omz
+# current without ever asking. (macOS: omz guards this with GNU stty --save,
+# which BSD stty lacks, so the guard never fires here.)
+zstyle ':omz:update' mode auto
+
 # Set name of the theme to load.
 ZSH_THEME="avit"
 
